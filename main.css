@@ -1,0 +1,156 @@
+/************************************************
+                    GENERAL
+************************************************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/************************************************
+                    HEADER
+************************************************/
+
+.gmail:hover,
+.images:hover {
+  text-decoration: underline;
+}
+
+.header {
+  float: right;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.header a {
+  margin-right: 20px;
+}
+
+.glyphicon-th {
+  color: rgba(96, 96, 96, 0.8);
+}
+
+.glyphicon-th:hover {
+  color: black;
+}
+
+.glyphicon-bell {
+  color: white;
+  background-color: rgba(96, 96, 96, 0.8);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.glyphicon-bell:hover {
+  background-color: black;
+}
+
+#acct {
+  background-color: rgba(73, 82, 186, 0.8);
+  padding: 7px 12px;
+  border-radius: 100%;
+  color: white;
+}
+
+/************************************************
+                    MAIN
+************************************************/
+
+.main {
+  text-align: center;
+  padding-top: 140px;
+  clear: both;
+}
+
+input {
+  margin-top: 10px;
+  width: 585px;
+  height: 45px;
+  background: transparent;
+  border-top: 1px solid rgb(229, 229, 229);
+  border-left: 1px solid rgb(229, 229, 229);
+  border-right: 1px solid rgb(229, 229, 229);
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 1px 5px rgb(186, 186, 186);
+}
+
+input:hover {
+  box-shadow: 0px 1px 5px rgb(186, 186, 186);
+}
+
+button {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  margin: 30px 5px;
+  font-weight: 900;
+  font-size: 0.9em;
+  color: rgb(115, 115, 115);
+}
+
+button:hover {
+  border: 1px solid rgb(115, 115, 115);
+  color: black;
+}
+
+.main a {
+  color: #0000EE;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+/************************************************
+                    FOOTER
+************************************************/
+
+.footer {
+  background: linear-gradient(rgb(247, 247, 247), rgb(229, 229, 229));
+  border: 1px solid rgb(225, 225, 225);
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-left,
+.footer-right {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-left a {
+  margin-left: 25px;
+}
+
+.footer-right a {
+  margin-right: 25px;
+}
